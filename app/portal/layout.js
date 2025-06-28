@@ -54,7 +54,7 @@ export default function PortalLayout({ children }) {
 
   const handleLogout = () => {
     clearUserSession();
-    router.push('/portal/login');
+    router.push('/login');
   };
 
   if (!user) {
