@@ -46,39 +46,8 @@ const HomePage = () => {
 
       <HeroBanner />
         
-      <AboutUs />2
-     
-
-      {/* Provost Welcome */}
-      <section className="py-20 bg-gray-50">
-        <div className="container mx-auto px-4">
-          <div className="max-w-5xl mx-auto">
-            <div className="bg-white rounded-xl shadow-lg overflow-hidden">
-              <div className="md:flex">
-                <div className="md:w-1/3 p-8 bg-indigo-900 text-white flex flex-col justify-center">
-                  <div className="bg-gray-200 border-2 border-dashed rounded-xl w-32 h-32 mx-auto mb-6" />
-                  <h3 className="text-2xl font-bold text-center">DR.(Engr) Adegbesan Sunday Adéwálé</h3>
-                  <p className="text-center text-indigo-200">Provost, SMATECH</p>
-                </div>
-                <div className="md:w-2/3 p-8">
-                  <h2 className="text-3xl font-bold text-gray-900 mb-6">Welcome to SMATECH</h2>
-                  <div className="prose prose-lg">
-                    <p className="text-gray-600 mb-4">
-                      School of Management and Technology (SMATECH), is a leading institution dedicated to quality teaching, learning, research and community service. We have over the past few years developed leaders in many disciplines through our various programmes.
-                    </p>
-                    <p className="text-gray-600 mb-4">
-                      As the College of First Choice and one of the Nation's Pride, we place great premium on the development and welfare of our staff and students both at the undergraduate and postgraduate levels. Since its establishment, the institution has continued to play a key role in nation building by molding the teeming youth population through its teaching, research and community services.
-                    </p>
-                    <p className="text-gray-600 mb-4">
-                      As the melting pot of the society, we strongly believe in diversity and, therefore, provide an atmosphere for an all-inclusive Students. As a result, we attract quality staff and students who are able to compete at the highest level locally, regionally and globally.
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
+      <AboutUs />
+  
 
       {/* Programs Showcase */}
       <section className="py-20 bg-white">
