@@ -7,6 +7,7 @@ import { MdComputer, MdBusinessCenter } from 'react-icons/md';
 import HeroBanner from '@/components/homepage/HeroBanner';
 import Header from '@/components/homepage/Header';
 import AboutUs from '@/components/homepage/AboutUs';
+import AcademicPrograms from '@/components/homepage/AcademicPrograms';
 
 const HomePage = () => {
   return (
@@ -50,47 +51,7 @@ const HomePage = () => {
   
 
       {/* Programs Showcase */}
-      <section className="py-20 bg-white">
-        <div className="container mx-auto px-4">
-          <div className="max-w-3xl mx-auto text-center mb-16">
-            <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">Our Academic Programs</h2>
-            <div className="w-24 h-1 bg-indigo-600 mx-auto mb-6"></div>
-            <p className="text-lg text-gray-600">
-              Carefully developed programs to convert students' ingenuity and creative ideas into sustainable careers.
-            </p>
-          </div>
-          
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-            {[
-              { icon: <MdBusinessCenter className="text-4xl text-indigo-600" />, title: "Management Sciences", programs: ["Accounting", "Business Administration", "Public Administration"] },
-              { icon: <MdComputer className="text-4xl text-indigo-600" />, title: "Information Sciences", programs: ["Computer Science", "Information Technology", "Cybersecurity"] },
-              { icon: <IoMdSchool className="text-4xl text-indigo-600" />, title: "Education", programs: ["Science Education", "Educational Administration", "Curriculum Studies"] },
-              { icon: <FaBook className="text-4xl text-indigo-600" />, title: "Arts & Humanities", programs: ["Mass Communication", "English Literature", "History & International Studies"] },
-              { icon: <IoIosRocket className="text-4xl text-indigo-600" />, title: "Engineering", programs: ["Electrical Engineering", "Mechanical Engineering", "Civil Engineering"] },
-              { icon: <FaGlobe className="text-4xl text-indigo-600" />, title: "Social Sciences", programs: ["Economics", "Sociology", "Political Science"] },
-            ].map((department, index) => (
-              <div key={index} className="bg-white border border-gray-200 rounded-xl shadow-md p-6 hover:shadow-lg transition-shadow duration-300">
-                <div className="mb-4">{department.icon}</div>
-                <h3 className="text-xl font-bold text-gray-900 mb-3">{department.title}</h3>
-                <ul className="space-y-2">
-                  {department.programs.map((program, i) => (
-                    <li key={i} className="flex items-center">
-                      <span className="w-2 h-2 bg-indigo-600 rounded-full mr-2"></span>
-                      <span>{program}</span>
-                    </li>
-                  ))}
-                </ul>
-                <button className="mt-6 text-indigo-600 font-medium hover:text-indigo-800 flex items-center">
-                  Explore Programs
-                  <svg className="ml-2 w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
-                  </svg>
-                </button>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
+      <AcademicPrograms />
 
       {/* Why Choose SMATECH */}
       <section className="py-20 bg-gradient-to-br from-indigo-50 to-blue-50">
