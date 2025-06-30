@@ -6,6 +6,7 @@ import { IoIosRocket, IoMdSchool } from 'react-icons/io';
 import { MdComputer, MdBusinessCenter } from 'react-icons/md';
 import HeroBanner from '@/components/homepage/HeroBanner';
 import Header from '@/components/homepage/Header';
+import AboutUs from '@/components/homepage/AboutUs';
 
 const HomePage = () => {
   return (
@@ -44,45 +45,9 @@ const HomePage = () => {
      <Header />
 
       <HeroBanner />
-    
-
-      {/* About SMATECH */}
-      <section className="py-20 bg-white">
-        <div className="container mx-auto px-4">
-          <div className="max-w-3xl mx-auto text-center mb-16">
-            <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">About SMATECH</h2>
-            <div className="w-24 h-1 bg-indigo-600 mx-auto mb-6"></div>
-            <p className="text-lg text-gray-600">
-              A recognized institution by the government to render educational services, with affiliations to prestigious institutions to graduate students with accredited degrees.
-            </p>
-          </div>
-          
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
-            <div>
-              <h3 className="text-2xl font-bold text-gray-900 mb-4">Our Mission</h3>
-              <p className="text-gray-600 mb-6">
-                To provide quality teaching, learning, research and community service, developing leaders in various disciplines through innovative programs.
-              </p>
-              
-              <h3 className="text-2xl font-bold text-gray-900 mb-4">Our Vision</h3>
-              <p className="text-gray-600 mb-6">
-                To be the College of First Choice and one of the Nation's Pride, placing great premium on the development and welfare of our staff and students.
-              </p>
-              
-              <button className="bg-indigo-600 text-white px-6 py-3 rounded-lg font-bold hover:bg-indigo-700 transition duration-300">
-                Learn More About SMATECH
-              </button>
-            </div>
-            
-            <div className="grid grid-cols-2 gap-4">
-              <div className="bg-gray-200 border-2 border-dashed rounded-xl w-full h-64" />
-              <div className="bg-gray-200 border-2 border-dashed rounded-xl w-full h-48 mt-8" />
-              <div className="bg-gray-200 border-2 border-dashed rounded-xl w-full h-48" />
-              <div className="bg-gray-200 border-2 border-dashed rounded-xl w-full h-64 mt-8" />
-            </div>
-          </div>
-        </div>
-      </section>
+        
+      <AboutUs />2
+     
 
       {/* Provost Welcome */}
       <section className="py-20 bg-gray-50">

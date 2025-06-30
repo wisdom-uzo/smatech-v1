@@ -163,12 +163,10 @@ export default function Header() {
 
           {/* Portal Buttons - Desktop */}
           <div className="hidden lg:flex items-center space-x-2 ml-4">
-            <Link href="/student-portal" className="px-3 py-2 text-sm font-medium text-blue-700 hover:text-blue-800">
+            <Link href="/login" className="px-3 py-2 text-sm font-medium text-blue-700 hover:text-blue-800">
               Student Portal
             </Link>
-            <Link href="/staff-portal" className="px-3 py-2 text-sm font-medium text-blue-700 hover:text-blue-800">
-              Staff Portal
-            </Link>
+           
             <Link href="/apply" className="ml-2 px-4 py-2 bg-blue-700 text-white text-sm font-medium rounded-md hover:bg-blue-800 transition-colors">
               Apply Now
             </Link>
@@ -279,12 +277,10 @@ export default function Header() {
             </Link>
 
             <div className="pt-4 border-t border-gray-200">
-              <Link href="/student-portal" className="block px-3 py-2 rounded-md text-base font-medium text-blue-700 hover:text-blue-800 hover:bg-blue-50">
+              <Link href="/login" className="block px-3 py-2 rounded-md text-base font-medium text-blue-700 hover:text-blue-800 hover:bg-blue-50">
                 Student Portal
               </Link>
-              <Link href="/staff-portal" className="block px-3 py-2 rounded-md text-base font-medium text-blue-700 hover:text-blue-800 hover:bg-blue-50">
-                Staff Portal
-              </Link>
+              
               <Link href="/apply" className="block w-full mt-2 px-4 py-2 bg-blue-700 text-white text-base font-medium rounded-md hover:bg-blue-800 text-center">
                 Apply Now
               </Link>
