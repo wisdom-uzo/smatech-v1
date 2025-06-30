@@ -44,29 +44,7 @@ const HomePage = () => {
      <Header />
 
       <HeroBanner />
-      {/* Stats Bar */}
-      <div className="bg-indigo-700 text-white py-6">
-        <div className="container mx-auto px-4">
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-6 text-center">
-            <div>
-              <div className="text-3xl font-bold">2,500+</div>
-              <div className="text-blue-100">Students</div>
-            </div>
-            <div>
-              <div className="text-3xl font-bold">8</div>
-              <div className="text-blue-100">Departments</div>
-            </div>
-            <div>
-              <div className="text-3xl font-bold">50+</div>
-              <div className="text-blue-100">Programs</div>
-            </div>
-            <div>
-              <div className="text-3xl font-bold">95%</div>
-              <div className="text-blue-100">Graduate Employment</div>
-            </div>
-          </div>
-        </div>
-      </div>
+    
 
       {/* About SMATECH */}
       <section className="py-20 bg-white">
